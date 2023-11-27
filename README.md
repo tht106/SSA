@@ -1,4 +1,4 @@
-# Semi-Supervised Adaptation for Skeletal Data Based Human Action Recognition
+# [Semi-Supervised Adaptation for Skeletal Data Based Human Action Recognition](https://sciforum.net/paper/view/16083)
 
 
 ## Introduction
