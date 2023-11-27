@@ -1,0 +1,724 @@
+[09.16.23|21:59:09] Load weights from K:\AimCLR-main\ntu60_TransferLearnToPKU_OnReducedActions\aimclr_joint\pretrain\xsub\epoch295_model.pt.
+[09.16.23|21:59:09] Filter [encoder_q.fc] remove weights [encoder_q.fc.0.weight].
+[09.16.23|21:59:09] Filter [encoder_q.fc] remove weights [encoder_q.fc.0.bias].
+[09.16.23|21:59:09] Filter [encoder_q.fc] remove weights [encoder_q.fc.2.weight].
+[09.16.23|21:59:09] Filter [encoder_q.fc] remove weights [encoder_q.fc.2.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.A].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.data_bn.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.data_bn.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.data_bn.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.data_bn.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.data_bn.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.gcn.conv.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.gcn.conv.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.tcn.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.tcn.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.tcn.0.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.tcn.0.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.tcn.2.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.tcn.2.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.tcn.3.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.tcn.3.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.tcn.3.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.tcn.3.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.0.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.gcn.conv.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.gcn.conv.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.tcn.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.tcn.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.tcn.0.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.tcn.0.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.tcn.2.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.tcn.2.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.tcn.3.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.tcn.3.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.tcn.3.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.tcn.3.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.1.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.gcn.conv.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.gcn.conv.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.tcn.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.tcn.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.tcn.0.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.tcn.0.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.tcn.2.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.tcn.2.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.tcn.3.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.tcn.3.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.tcn.3.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.tcn.3.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.2.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.gcn.conv.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.gcn.conv.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.tcn.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.tcn.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.tcn.0.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.tcn.0.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.tcn.2.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.tcn.2.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.tcn.3.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.tcn.3.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.tcn.3.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.tcn.3.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.3.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.gcn.conv.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.gcn.conv.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.tcn.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.tcn.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.tcn.0.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.tcn.0.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.tcn.2.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.tcn.2.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.tcn.3.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.tcn.3.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.tcn.3.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.tcn.3.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.residual.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.residual.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.residual.1.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.residual.1.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.residual.1.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.residual.1.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.4.residual.1.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.gcn.conv.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.gcn.conv.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.tcn.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.tcn.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.tcn.0.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.tcn.0.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.tcn.2.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.tcn.2.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.tcn.3.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.tcn.3.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.tcn.3.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.tcn.3.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.5.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.gcn.conv.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.gcn.conv.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.tcn.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.tcn.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.tcn.0.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.tcn.0.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.tcn.2.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.tcn.2.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.tcn.3.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.tcn.3.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.tcn.3.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.tcn.3.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.6.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.gcn.conv.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.gcn.conv.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.tcn.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.tcn.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.tcn.0.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.tcn.0.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.tcn.2.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.tcn.2.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.tcn.3.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.tcn.3.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.tcn.3.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.tcn.3.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.residual.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.residual.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.residual.1.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.residual.1.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.residual.1.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.residual.1.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.7.residual.1.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.gcn.conv.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.gcn.conv.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.tcn.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.tcn.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.tcn.0.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.tcn.0.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.tcn.2.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.tcn.2.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.tcn.3.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.tcn.3.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.tcn.3.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.tcn.3.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.8.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.gcn.conv.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.gcn.conv.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.tcn.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.tcn.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.tcn.0.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.tcn.0.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.tcn.2.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.tcn.2.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.tcn.3.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.tcn.3.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.tcn.3.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.tcn.3.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.residual.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.residual.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.residual.1.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.residual.1.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.residual.1.running_mean].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.residual.1.running_var].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.st_gcn_networks.9.residual.1.num_batches_tracked].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.fc.0.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.fc.0.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.fc.2.weight].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.fc.2.bias].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.edge_importance.0].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.edge_importance.1].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.edge_importance.2].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.edge_importance.3].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.edge_importance.4].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.edge_importance.5].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.edge_importance.6].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.edge_importance.7].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.edge_importance.8].
+[09.16.23|21:59:09] Filter [encoder_k] remove weights [encoder_k.edge_importance.9].
+[09.16.23|21:59:09] Filter [queue] remove weights [queue].
+[09.16.23|21:59:09] Filter [queue] remove weights [queue_ptr].
+[09.16.23|21:59:09] Load weights [encoder_q.A].
+[09.16.23|21:59:09] Load weights [encoder_q.data_bn.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.data_bn.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.data_bn.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.data_bn.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.data_bn.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.gcn.conv.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.gcn.conv.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.tcn.0.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.tcn.0.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.tcn.0.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.tcn.0.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.tcn.2.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.tcn.2.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.tcn.3.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.tcn.3.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.tcn.3.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.tcn.3.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.0.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.gcn.conv.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.gcn.conv.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.tcn.0.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.tcn.0.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.tcn.0.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.tcn.0.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.tcn.2.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.tcn.2.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.tcn.3.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.tcn.3.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.tcn.3.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.tcn.3.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.1.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.gcn.conv.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.gcn.conv.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.tcn.0.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.tcn.0.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.tcn.0.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.tcn.0.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.tcn.2.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.tcn.2.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.tcn.3.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.tcn.3.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.tcn.3.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.tcn.3.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.2.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.gcn.conv.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.gcn.conv.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.tcn.0.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.tcn.0.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.tcn.0.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.tcn.0.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.tcn.2.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.tcn.2.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.tcn.3.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.tcn.3.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.tcn.3.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.tcn.3.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.3.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.gcn.conv.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.gcn.conv.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.tcn.0.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.tcn.0.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.tcn.0.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.tcn.0.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.tcn.2.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.tcn.2.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.tcn.3.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.tcn.3.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.tcn.3.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.tcn.3.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.residual.0.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.residual.0.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.residual.1.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.residual.1.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.residual.1.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.residual.1.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.4.residual.1.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.gcn.conv.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.gcn.conv.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.tcn.0.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.tcn.0.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.tcn.0.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.tcn.0.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.tcn.2.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.tcn.2.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.tcn.3.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.tcn.3.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.tcn.3.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.tcn.3.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.5.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.gcn.conv.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.gcn.conv.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.tcn.0.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.tcn.0.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.tcn.0.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.tcn.0.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.tcn.2.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.tcn.2.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.tcn.3.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.tcn.3.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.tcn.3.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.tcn.3.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.6.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.gcn.conv.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.gcn.conv.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.tcn.0.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.tcn.0.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.tcn.0.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.tcn.0.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.tcn.2.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.tcn.2.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.tcn.3.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.tcn.3.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.tcn.3.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.tcn.3.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.residual.0.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.residual.0.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.residual.1.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.residual.1.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.residual.1.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.residual.1.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.7.residual.1.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.gcn.conv.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.gcn.conv.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.tcn.0.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.tcn.0.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.tcn.0.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.tcn.0.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.tcn.2.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.tcn.2.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.tcn.3.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.tcn.3.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.tcn.3.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.tcn.3.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.8.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.gcn.conv.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.gcn.conv.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.tcn.0.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.tcn.0.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.tcn.0.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.tcn.0.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.tcn.0.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.tcn.2.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.tcn.2.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.tcn.3.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.tcn.3.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.tcn.3.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.tcn.3.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.tcn.3.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.residual.0.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.residual.0.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.residual.1.weight].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.residual.1.bias].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.residual.1.running_mean].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.residual.1.running_var].
+[09.16.23|21:59:09] Load weights [encoder_q.st_gcn_networks.9.residual.1.num_batches_tracked].
+[09.16.23|21:59:09] Load weights [encoder_q.edge_importance.0].
+[09.16.23|21:59:09] Load weights [encoder_q.edge_importance.1].
+[09.16.23|21:59:09] Load weights [encoder_q.edge_importance.2].
+[09.16.23|21:59:09] Load weights [encoder_q.edge_importance.3].
+[09.16.23|21:59:09] Load weights [encoder_q.edge_importance.4].
+[09.16.23|21:59:09] Load weights [encoder_q.edge_importance.5].
+[09.16.23|21:59:09] Load weights [encoder_q.edge_importance.6].
+[09.16.23|21:59:09] Load weights [encoder_q.edge_importance.7].
+[09.16.23|21:59:09] Load weights [encoder_q.edge_importance.8].
+[09.16.23|21:59:09] Load weights [encoder_q.edge_importance.9].
+[09.16.23|21:59:09] Can not find weights [encoder_q.fc.weight].
+[09.16.23|21:59:09] Can not find weights [encoder_q.fc.bias].
+[09.16.23|21:59:10] Parameters:
+{'work_dir': 'K:\\AimCLR-main\\PKU\\aimclr_joint\\simi_linear_eval\\OnePercent', 'config': 'config/pkummd/linear_eval/linear_eval_aimclr_pkup1cs_joint_semi.yaml', 'phase': 'train', 'save_result': True, 'start_epoch': 0, 'num_epoch': 100, 'use_gpu': True, 'device': 1, 'log_interval': 100, 'save_interval': -1, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'train_feeder': 'feeder.ntu_feeder.Feeder_semi', 'test_feeder': 'feeder.ntu_feeder.Feeder_single', 'num_worker': 4, 'train_feeder_args': {'data_path': './data/gty/action_dataset/pku_part1_frame50/xsub/train_position.npy', 'label_path': './data/gty/action_dataset/pku_part1_frame50/xsub/train_label.pkl', 'shear_amplitude': -1, 'temperal_padding_ratio': -1, 'label_percent': 0.01, 'mmap': True}, 'test_feeder_args': {'data_path': './data/gty/action_dataset/pku_part1_frame50/xsub/val_position.npy', 'label_path': './data/gty/action_dataset/pku_part1_frame50/xsub/val_label.pkl', 'shear_amplitude': -1, 'temperal_padding_ratio': -1, 'mmap': True}, 'batch_size': 128, 'test_batch_size': 128, 'debug': False, 'model': 'net.aimclr.AimCLR', 'model_args': {'base_encoder': 'net.st_gcn.Model', 'pretrain': False, 'in_channels': 3, 'hidden_channels': 16, 'hidden_dim': 256, 'num_class': 51, 'dropout': 0.5, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}, 'edge_importance_weighting': True}, 'weights': 'K:\\AimCLR-main\\ntu60_TransferLearnToPKU_OnReducedActions\\aimclr_joint\\pretrain\\xsub\\epoch295_model.pt', 'ignore_weights': ['encoder_q.fc', 'encoder_k', 'queue'], 'show_topk': [1, 5], 'base_lr': 3.0, 'step': [80], 'optimizer': 'SGD', 'nesterov': False, 'weight_decay': 0.0, 'stream': 'joint', 'mining_epoch': 1000000.0, 'topk': 1}
+
+[09.16.23|21:59:10] ---------- Networks initialized -------------
+[09.16.23|21:59:10] [Network] Total number of parameters : 0.834 M
+[09.16.23|21:59:10] -----------------------------------------------
+[09.16.23|21:59:10] Training epoch: 1
+[09.16.23|21:59:12] 	Iter 0 Done. | loss: 3.9357 | lr: 3.000000
+[09.16.23|21:59:12] 	train_mean_loss: 3.9357433319091797
+[09.16.23|21:59:12] Training epoch: 2
+[09.16.23|21:59:12] 	train_mean_loss: 3.7987375259399414
+[09.16.23|21:59:12] Training epoch: 3
+[09.16.23|21:59:12] 	train_mean_loss: 3.5625388622283936
+[09.16.23|21:59:12] Training epoch: 4
+[09.16.23|21:59:12] 	train_mean_loss: 3.197645664215088
+[09.16.23|21:59:12] Training epoch: 5
+[09.16.23|21:59:12] 	train_mean_loss: 2.8403594493865967
+[09.16.23|21:59:12] Eval epoch: 5
+[09.16.23|21:59:13] 	eval_mean_loss: 2.787065625190735
+[09.16.23|21:59:13] 	Top1: 25.59%
+[09.16.23|21:59:13] 	Top5: 65.01%
+[09.16.23|21:59:13] 	Best Top1: 25.59%
+[09.16.23|21:59:13] current 25.59%, best 25.59%
+[09.16.23|21:59:13] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch005_acc25.59_model.pt.
+[09.16.23|21:59:13] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/best_model.pt.
+[09.16.23|21:59:13] Training epoch: 6
+[09.16.23|21:59:13] 	train_mean_loss: 2.465527057647705
+[09.16.23|21:59:13] Training epoch: 7
+[09.16.23|21:59:14] 	train_mean_loss: 2.1066794395446777
+[09.16.23|21:59:14] Training epoch: 8
+[09.16.23|21:59:14] 	train_mean_loss: 1.788118600845337
+[09.16.23|21:59:14] Training epoch: 9
+[09.16.23|21:59:14] 	train_mean_loss: 1.451137661933899
+[09.16.23|21:59:14] Training epoch: 10
+[09.16.23|21:59:14] 	train_mean_loss: 1.295526385307312
+[09.16.23|21:59:14] Eval epoch: 10
+[09.16.23|21:59:15] 	eval_mean_loss: 1.8900380405512722
+[09.16.23|21:59:15] 	Top1: 43.60%
+[09.16.23|21:59:15] 	Top5: 82.21%
+[09.16.23|21:59:15] 	Best Top1: 43.60%
+[09.16.23|21:59:15] current 43.60%, best 43.60%
+[09.16.23|21:59:15] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch010_acc43.60_model.pt.
+[09.16.23|21:59:15] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/best_model.pt.
+[09.16.23|21:59:15] Training epoch: 11
+[09.16.23|21:59:15] 	train_mean_loss: 1.2226598262786865
+[09.16.23|21:59:15] Training epoch: 12
+[09.16.23|21:59:15] 	train_mean_loss: 0.9657160639762878
+[09.16.23|21:59:15] Training epoch: 13
+[09.16.23|21:59:15] 	train_mean_loss: 0.8884897232055664
+[09.16.23|21:59:15] Training epoch: 14
+[09.16.23|21:59:15] 	train_mean_loss: 0.7880138754844666
+[09.16.23|21:59:15] Training epoch: 15
+[09.16.23|21:59:15] 	train_mean_loss: 0.6435226202011108
+[09.16.23|21:59:15] Eval epoch: 15
+[09.16.23|21:59:17] 	eval_mean_loss: 1.595035894350572
+[09.16.23|21:59:17] 	Top1: 49.85%
+[09.16.23|21:59:17] 	Top5: 85.47%
+[09.16.23|21:59:17] 	Best Top1: 49.85%
+[09.16.23|21:59:17] current 49.85%, best 49.85%
+[09.16.23|21:59:17] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch015_acc49.85_model.pt.
+[09.16.23|21:59:17] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/best_model.pt.
+[09.16.23|21:59:17] Training epoch: 16
+[09.16.23|21:59:17] 	train_mean_loss: 0.5682149529457092
+[09.16.23|21:59:17] Training epoch: 17
+[09.16.23|21:59:17] 	train_mean_loss: 0.5751311779022217
+[09.16.23|21:59:17] Training epoch: 18
+[09.16.23|21:59:17] 	train_mean_loss: 0.4811531603336334
+[09.16.23|21:59:17] Training epoch: 19
+[09.16.23|21:59:17] 	train_mean_loss: 0.4341896176338196
+[09.16.23|21:59:17] Training epoch: 20
+[09.16.23|21:59:17] 	train_mean_loss: 0.3916037082672119
+[09.16.23|21:59:17] Eval epoch: 20
+[09.16.23|21:59:18] 	eval_mean_loss: 1.526931264183738
+[09.16.23|21:59:18] 	Top1: 51.81%
+[09.16.23|21:59:18] 	Top5: 87.87%
+[09.16.23|21:59:18] 	Best Top1: 51.81%
+[09.16.23|21:59:18] current 51.81%, best 51.81%
+[09.16.23|21:59:18] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch020_acc51.81_model.pt.
+[09.16.23|21:59:18] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/best_model.pt.
+[09.16.23|21:59:18] Training epoch: 21
+[09.16.23|21:59:18] 	train_mean_loss: 0.33980458974838257
+[09.16.23|21:59:18] Training epoch: 22
+[09.16.23|21:59:19] 	train_mean_loss: 0.2962478697299957
+[09.16.23|21:59:19] Training epoch: 23
+[09.16.23|21:59:19] 	train_mean_loss: 0.30832868814468384
+[09.16.23|21:59:19] Training epoch: 24
+[09.16.23|21:59:19] 	train_mean_loss: 0.2855941355228424
+[09.16.23|21:59:19] Training epoch: 25
+[09.16.23|21:59:19] 	train_mean_loss: 0.24809931218624115
+[09.16.23|21:59:19] Eval epoch: 25
+[09.16.23|21:59:20] 	eval_mean_loss: 1.5728820074688306
+[09.16.23|21:59:20] 	Top1: 53.44%
+[09.16.23|21:59:20] 	Top5: 87.39%
+[09.16.23|21:59:20] 	Best Top1: 53.44%
+[09.16.23|21:59:20] current 53.44%, best 53.44%
+[09.16.23|21:59:20] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch025_acc53.44_model.pt.
+[09.16.23|21:59:20] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/best_model.pt.
+[09.16.23|21:59:20] Training epoch: 26
+[09.16.23|21:59:20] 	train_mean_loss: 0.23693184554576874
+[09.16.23|21:59:20] Training epoch: 27
+[09.16.23|21:59:20] 	train_mean_loss: 0.24259264767169952
+[09.16.23|21:59:20] Training epoch: 28
+[09.16.23|21:59:20] 	train_mean_loss: 0.21765057742595673
+[09.16.23|21:59:20] Training epoch: 29
+[09.16.23|21:59:20] 	train_mean_loss: 0.21147361397743225
+[09.16.23|21:59:20] Training epoch: 30
+[09.16.23|21:59:20] 	train_mean_loss: 0.19131697714328766
+[09.16.23|21:59:20] Eval epoch: 30
+[09.16.23|21:59:22] 	eval_mean_loss: 1.5954593853517012
+[09.16.23|21:59:22] 	Top1: 52.70%
+[09.16.23|21:59:22] 	Top5: 87.09%
+[09.16.23|21:59:22] 	Best Top1: 53.44%
+[09.16.23|21:59:22] current 52.70%, best 53.44%
+[09.16.23|21:59:22] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch030_acc52.70_model.pt.
+[09.16.23|21:59:22] Training epoch: 31
+[09.16.23|21:59:22] 	train_mean_loss: 0.19063535332679749
+[09.16.23|21:59:22] Training epoch: 32
+[09.16.23|21:59:22] 	train_mean_loss: 0.15163877606391907
+[09.16.23|21:59:22] Training epoch: 33
+[09.16.23|21:59:22] 	train_mean_loss: 0.16608862578868866
+[09.16.23|21:59:22] Training epoch: 34
+[09.16.23|21:59:22] 	train_mean_loss: 0.1540328860282898
+[09.16.23|21:59:22] Training epoch: 35
+[09.16.23|21:59:22] 	train_mean_loss: 0.1278206706047058
+[09.16.23|21:59:22] Eval epoch: 35
+[09.16.23|21:59:23] 	eval_mean_loss: 1.6444409435445613
+[09.16.23|21:59:23] 	Top1: 52.37%
+[09.16.23|21:59:23] 	Top5: 87.50%
+[09.16.23|21:59:23] 	Best Top1: 53.44%
+[09.16.23|21:59:23] current 52.37%, best 53.44%
+[09.16.23|21:59:23] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch035_acc52.37_model.pt.
+[09.16.23|21:59:23] Training epoch: 36
+[09.16.23|21:59:23] 	train_mean_loss: 0.15138396620750427
+[09.16.23|21:59:23] Training epoch: 37
+[09.16.23|21:59:23] 	train_mean_loss: 0.13105566799640656
+[09.16.23|21:59:23] Training epoch: 38
+[09.16.23|21:59:23] 	train_mean_loss: 0.15087205171585083
+[09.16.23|21:59:23] Training epoch: 39
+[09.16.23|21:59:24] 	train_mean_loss: 0.13346591591835022
+[09.16.23|21:59:24] Training epoch: 40
+[09.16.23|21:59:24] 	train_mean_loss: 0.1114172711968422
+[09.16.23|21:59:24] Eval epoch: 40
+[09.16.23|21:59:25] 	eval_mean_loss: 1.6337252421812578
+[09.16.23|21:59:25] 	Top1: 52.77%
+[09.16.23|21:59:25] 	Top5: 88.35%
+[09.16.23|21:59:25] 	Best Top1: 53.44%
+[09.16.23|21:59:25] current 52.77%, best 53.44%
+[09.16.23|21:59:25] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch040_acc52.77_model.pt.
+[09.16.23|21:59:25] Training epoch: 41
+[09.16.23|21:59:25] 	train_mean_loss: 0.12641172111034393
+[09.16.23|21:59:25] Training epoch: 42
+[09.16.23|21:59:25] 	train_mean_loss: 0.11093852669000626
+[09.16.23|21:59:25] Training epoch: 43
+[09.16.23|21:59:25] 	train_mean_loss: 0.10192377120256424
+[09.16.23|21:59:25] Training epoch: 44
+[09.16.23|21:59:25] 	train_mean_loss: 0.10188651829957962
+[09.16.23|21:59:25] Training epoch: 45
+[09.16.23|21:59:25] 	train_mean_loss: 0.09387706965208054
+[09.16.23|21:59:25] Eval epoch: 45
+[09.16.23|21:59:26] 	eval_mean_loss: 1.6265829476443203
+[09.16.23|21:59:26] 	Top1: 53.74%
+[09.16.23|21:59:26] 	Top5: 87.72%
+[09.16.23|21:59:27] 	Best Top1: 53.74%
+[09.16.23|21:59:27] current 53.74%, best 53.74%
+[09.16.23|21:59:27] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch045_acc53.74_model.pt.
+[09.16.23|21:59:27] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/best_model.pt.
+[09.16.23|21:59:27] Training epoch: 46
+[09.16.23|21:59:27] 	train_mean_loss: 0.09896375238895416
+[09.16.23|21:59:27] Training epoch: 47
+[09.16.23|21:59:27] 	train_mean_loss: 0.10234138369560242
+[09.16.23|21:59:27] Training epoch: 48
+[09.16.23|21:59:27] 	train_mean_loss: 0.0943286344408989
+[09.16.23|21:59:27] Training epoch: 49
+[09.16.23|21:59:27] 	train_mean_loss: 0.09616005420684814
+[09.16.23|21:59:27] Training epoch: 50
+[09.16.23|21:59:27] 	train_mean_loss: 0.10033007711172104
+[09.16.23|21:59:27] Eval epoch: 50
+[09.16.23|21:59:28] 	eval_mean_loss: 1.6550449891523882
+[09.16.23|21:59:28] 	Top1: 53.11%
+[09.16.23|21:59:28] 	Top5: 87.32%
+[09.16.23|21:59:28] 	Best Top1: 53.74%
+[09.16.23|21:59:28] current 53.11%, best 53.74%
+[09.16.23|21:59:28] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch050_acc53.11_model.pt.
+[09.16.23|21:59:28] Training epoch: 51
+[09.16.23|21:59:28] 	train_mean_loss: 0.0932944044470787
+[09.16.23|21:59:28] Training epoch: 52
+[09.16.23|21:59:28] 	train_mean_loss: 0.08166221529245377
+[09.16.23|21:59:28] Training epoch: 53
+[09.16.23|21:59:28] 	train_mean_loss: 0.08206003159284592
+[09.16.23|21:59:28] Training epoch: 54
+[09.16.23|21:59:28] 	train_mean_loss: 0.08558516204357147
+[09.16.23|21:59:28] Training epoch: 55
+[09.16.23|21:59:28] 	train_mean_loss: 0.08395987004041672
+[09.16.23|21:59:28] Eval epoch: 55
+[09.16.23|21:59:30] 	eval_mean_loss: 1.67490600455891
+[09.16.23|21:59:30] 	Top1: 53.22%
+[09.16.23|21:59:30] 	Top5: 87.65%
+[09.16.23|21:59:30] 	Best Top1: 53.74%
+[09.16.23|21:59:30] current 53.22%, best 53.74%
+[09.16.23|21:59:30] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch055_acc53.22_model.pt.
+[09.16.23|21:59:30] Training epoch: 56
+[09.16.23|21:59:30] 	train_mean_loss: 0.0822925940155983
+[09.16.23|21:59:30] Training epoch: 57
+[09.16.23|21:59:30] 	train_mean_loss: 0.07049281150102615
+[09.16.23|21:59:30] Training epoch: 58
+[09.16.23|21:59:30] 	train_mean_loss: 0.07781688123941422
+[09.16.23|21:59:30] Training epoch: 59
+[09.16.23|21:59:30] 	train_mean_loss: 0.07998525351285934
+[09.16.23|21:59:30] Training epoch: 60
+[09.16.23|21:59:30] 	train_mean_loss: 0.07778970897197723
+[09.16.23|21:59:30] Eval epoch: 60
+[09.16.23|21:59:31] 	eval_mean_loss: 1.6756621978499673
+[09.16.23|21:59:31] 	Top1: 53.81%
+[09.16.23|21:59:31] 	Top5: 87.87%
+[09.16.23|21:59:31] 	Best Top1: 53.81%
+[09.16.23|21:59:31] current 53.81%, best 53.81%
+[09.16.23|21:59:31] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch060_acc53.81_model.pt.
+[09.16.23|21:59:31] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/best_model.pt.
+[09.16.23|21:59:31] Training epoch: 61
+[09.16.23|21:59:31] 	train_mean_loss: 0.05605923384428024
+[09.16.23|21:59:31] Training epoch: 62
+[09.16.23|21:59:31] 	train_mean_loss: 0.07718019932508469
+[09.16.23|21:59:31] Training epoch: 63
+[09.16.23|21:59:31] 	train_mean_loss: 0.07407628744840622
+[09.16.23|21:59:31] Training epoch: 64
+[09.16.23|21:59:32] 	train_mean_loss: 0.06794241070747375
+[09.16.23|21:59:32] Training epoch: 65
+[09.16.23|21:59:32] 	train_mean_loss: 0.06819457560777664
+[09.16.23|21:59:32] Eval epoch: 65
+[09.16.23|21:59:33] 	eval_mean_loss: 1.6800418821248142
+[09.16.23|21:59:33] 	Top1: 53.37%
+[09.16.23|21:59:33] 	Top5: 87.76%
+[09.16.23|21:59:33] 	Best Top1: 53.81%
+[09.16.23|21:59:33] current 53.37%, best 53.81%
+[09.16.23|21:59:33] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch065_acc53.37_model.pt.
+[09.16.23|21:59:33] Training epoch: 66
+[09.16.23|21:59:33] 	train_mean_loss: 0.06736505776643753
+[09.16.23|21:59:33] Training epoch: 67
+[09.16.23|21:59:33] 	train_mean_loss: 0.06710648536682129
+[09.16.23|21:59:33] Training epoch: 68
+[09.16.23|21:59:33] 	train_mean_loss: 0.06330060213804245
+[09.16.23|21:59:33] Training epoch: 69
+[09.16.23|21:59:33] 	train_mean_loss: 0.05977153033018112
+[09.16.23|21:59:33] Training epoch: 70
+[09.16.23|21:59:33] 	train_mean_loss: 0.06465166062116623
+[09.16.23|21:59:33] Eval epoch: 70
+[09.16.23|21:59:34] 	eval_mean_loss: 1.6906235380606218
+[09.16.23|21:59:34] 	Top1: 53.37%
+[09.16.23|21:59:34] 	Top5: 87.87%
+[09.16.23|21:59:34] 	Best Top1: 53.81%
+[09.16.23|21:59:34] current 53.37%, best 53.81%
+[09.16.23|21:59:34] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch070_acc53.37_model.pt.
+[09.16.23|21:59:34] Training epoch: 71
+[09.16.23|21:59:35] 	train_mean_loss: 0.0671059861779213
+[09.16.23|21:59:35] Training epoch: 72
+[09.16.23|21:59:35] 	train_mean_loss: 0.07142984867095947
+[09.16.23|21:59:35] Training epoch: 73
+[09.16.23|21:59:35] 	train_mean_loss: 0.05818035453557968
+[09.16.23|21:59:35] Training epoch: 74
+[09.16.23|21:59:35] 	train_mean_loss: 0.05975570157170296
+[09.16.23|21:59:35] Training epoch: 75
+[09.16.23|21:59:35] 	train_mean_loss: 0.05459251254796982
+[09.16.23|21:59:35] Eval epoch: 75
+[09.16.23|21:59:36] 	eval_mean_loss: 1.6888148947195574
+[09.16.23|21:59:36] 	Top1: 53.96%
+[09.16.23|21:59:36] 	Top5: 87.65%
+[09.16.23|21:59:36] 	Best Top1: 53.96%
+[09.16.23|21:59:36] current 53.96%, best 53.96%
+[09.16.23|21:59:36] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch075_acc53.96_model.pt.
+[09.16.23|21:59:36] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/best_model.pt.
+[09.16.23|21:59:36] Training epoch: 76
+[09.16.23|21:59:36] 	train_mean_loss: 0.06318635493516922
+[09.16.23|21:59:36] Training epoch: 77
+[09.16.23|21:59:36] 	train_mean_loss: 0.05883002281188965
+[09.16.23|21:59:36] Training epoch: 78
+[09.16.23|21:59:36] 	train_mean_loss: 0.06112310662865639
+[09.16.23|21:59:36] Training epoch: 79
+[09.16.23|21:59:36] 	train_mean_loss: 0.0590609647333622
+[09.16.23|21:59:36] Training epoch: 80
+[09.16.23|21:59:36] 	train_mean_loss: 0.05385001003742218
+[09.16.23|21:59:36] Eval epoch: 80
+[09.16.23|21:59:38] 	eval_mean_loss: 1.6876256520097905
+[09.16.23|21:59:38] 	Top1: 53.85%
+[09.16.23|21:59:38] 	Top5: 87.83%
+[09.16.23|21:59:38] 	Best Top1: 53.96%
+[09.16.23|21:59:38] current 53.85%, best 53.96%
+[09.16.23|21:59:38] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch080_acc53.85_model.pt.
+[09.16.23|21:59:38] Training epoch: 81
+[09.16.23|21:59:38] 	train_mean_loss: 0.06357569992542267
+[09.16.23|21:59:38] Training epoch: 82
+[09.16.23|21:59:38] 	train_mean_loss: 0.05307557433843613
+[09.16.23|21:59:38] Training epoch: 83
+[09.16.23|21:59:38] 	train_mean_loss: 0.06093193590641022
+[09.16.23|21:59:38] Training epoch: 84
+[09.16.23|21:59:38] 	train_mean_loss: 0.054592687636613846
+[09.16.23|21:59:38] Training epoch: 85
+[09.16.23|21:59:38] 	train_mean_loss: 0.050315070897340775
+[09.16.23|21:59:38] Eval epoch: 85
+[09.16.23|21:59:39] 	eval_mean_loss: 1.6872103485194119
+[09.16.23|21:59:39] 	Top1: 54.03%
+[09.16.23|21:59:39] 	Top5: 87.87%
+[09.16.23|21:59:39] 	Best Top1: 54.03%
+[09.16.23|21:59:39] current 54.03%, best 54.03%
+[09.16.23|21:59:39] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch085_acc54.03_model.pt.
+[09.16.23|21:59:39] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/best_model.pt.
+[09.16.23|21:59:39] Training epoch: 86
+[09.16.23|21:59:39] 	train_mean_loss: 0.05168510228395462
+[09.16.23|21:59:39] Training epoch: 87
+[09.16.23|21:59:39] 	train_mean_loss: 0.05835771560668945
+[09.16.23|21:59:39] Training epoch: 88
+[09.16.23|21:59:40] 	train_mean_loss: 0.05217711627483368
+[09.16.23|21:59:40] Training epoch: 89
+[09.16.23|21:59:40] 	train_mean_loss: 0.051601849496364594
+[09.16.23|21:59:40] Training epoch: 90
+[09.16.23|21:59:40] 	train_mean_loss: 0.05427529290318489
+[09.16.23|21:59:40] Eval epoch: 90
+[09.16.23|21:59:41] 	eval_mean_loss: 1.685938542539423
+[09.16.23|21:59:41] 	Top1: 53.92%
+[09.16.23|21:59:41] 	Top5: 87.94%
+[09.16.23|21:59:41] 	Best Top1: 54.03%
+[09.16.23|21:59:41] current 53.92%, best 54.03%
+[09.16.23|21:59:41] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch090_acc53.92_model.pt.
+[09.16.23|21:59:41] Training epoch: 91
+[09.16.23|21:59:41] 	train_mean_loss: 0.0463801734149456
+[09.16.23|21:59:41] Training epoch: 92
+[09.16.23|21:59:41] 	train_mean_loss: 0.05334866791963577
+[09.16.23|21:59:41] Training epoch: 93
+[09.16.23|21:59:41] 	train_mean_loss: 0.052728865295648575
+[09.16.23|21:59:41] Training epoch: 94
+[09.16.23|21:59:41] 	train_mean_loss: 0.050262972712516785
+[09.16.23|21:59:41] Training epoch: 95
+[09.16.23|21:59:41] 	train_mean_loss: 0.05717591568827629
+[09.16.23|21:59:41] Eval epoch: 95
+[09.16.23|21:59:42] 	eval_mean_loss: 1.6866911920634182
+[09.16.23|21:59:42] 	Top1: 54.03%
+[09.16.23|21:59:42] 	Top5: 87.87%
+[09.16.23|21:59:42] 	Best Top1: 54.03%
+[09.16.23|21:59:42] current 54.03%, best 54.03%
+[09.16.23|21:59:42] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch095_acc54.03_model.pt.
+[09.16.23|21:59:42] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/best_model.pt.
+[09.16.23|21:59:42] Training epoch: 96
+[09.16.23|21:59:43] 	train_mean_loss: 0.058352429419755936
+[09.16.23|21:59:43] Training epoch: 97
+[09.16.23|21:59:43] 	train_mean_loss: 0.04670075699687004
+[09.16.23|21:59:43] Training epoch: 98
+[09.16.23|21:59:43] 	train_mean_loss: 0.05108143016695976
+[09.16.23|21:59:43] Training epoch: 99
+[09.16.23|21:59:43] 	train_mean_loss: 0.045089758932590485
+[09.16.23|21:59:43] Training epoch: 100
+[09.16.23|21:59:43] 	train_mean_loss: 0.055542442947626114
+[09.16.23|21:59:43] Eval epoch: 100
+[09.16.23|21:59:44] 	eval_mean_loss: 1.6877139806747437
+[09.16.23|21:59:44] 	Top1: 53.96%
+[09.16.23|21:59:44] 	Top5: 87.87%
+[09.16.23|21:59:44] 	Best Top1: 54.03%
+[09.16.23|21:59:44] current 53.96%, best 54.03%
+[09.16.23|21:59:44] The model has been saved as K:\AimCLR-main\PKU\aimclr_joint\simi_linear_eval\OnePercent/epoch100_acc53.96_model.pt.

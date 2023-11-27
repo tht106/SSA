@@ -1,0 +1,47 @@
+
+################## train a model on NTU and transfer to PKU ################
+
+pretain: ntu60_TransferLearnToPKU_OnReducedActions/aimclr_joint/pretrain/xsub/config.yaml
+
+         # note: 1. the contrastive learning class is set as 49 (which is should be 50,
+          and has been corrected at key_maping_from_NTU60ToPKU(feeder/ntu_feeder.py:37)
+          where a new action mapping, '24': 28, has been added).
+          2. use reduced actions (feeder/ntu_feeder.py:155) for pretraining on NTU.
+
+          output: ntu60_TransferLearnToPKU_OnReducedActions/aimclr_joint/pretrain/xsub/epoch295_model.pt
+---------------------------------------------linear eval on ntu -> transfer to pku--------------------------------------
+linear eval: ntu60_TransferLearnToPKU_OnReducedActions/aimclr_joint/linear_eval/config.yaml
+
+             # note: 51 actions is mapped to the label space of PKU to facilitate the
+             evaluation of the resulting model on PKU. The action 37 is unique to PKU
+             so the mapped action 37 is -100 to NTU (feeder/ntu_feeder.py:37))
+
+             acc on NTU: Top1:63.12
+             output: K:\AimCLR-main\ntu60_TransferLearnToPKU_OnReducedActions\aimclr_joint\linear_eval_OnReducedActions\best_model.pt
+
+transfer test: config/pkummd/linear_eval/transfer_learning_test.yaml.
+
+              # note: 1. Test on the output of linear eval. 2. Two key parameters ignore_weights: []; phase: test.
+              3. None action mapping used in this phase.
+
+              acc on PKU: Top1: 43.79% Top5: 76.55%
+
+------------------------------------------------fine tune on ntu -> transfer to pku-------------------------------------
+fine tune: ntu60_TransferLearnToPKU_OnReducedActions/aimclr_joint/fine_tune/config.yaml
+
+           outout: K:\AimCLR-main\ntu60_TransferLearnToPKU_OnReducedActions\aimclr_joint\fine_tune_OnReducedActions\best_model.pt
+           acc on NTU: Top1:69.07
+
+transfer test: config/pkummd/linear_eval/transfer_learning_test.yaml
+
+           acc on PKU: Top1: 57.32%	Top5: 80.51%
+
+---------------------------------------------------linear eval on pku---------------------------------------------------
+
+linear eval: PKU/aimclr_joint/adapted_from_NTU_linear_eval/config.yaml
+
+           output: PKU/aimclr_joint/adapted_from_NTU_linear_eval/epoch100_acc85.06_model.pt
+           acc on PKU: 85.06
+
+
+
